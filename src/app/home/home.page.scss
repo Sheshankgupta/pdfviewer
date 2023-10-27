@@ -1,0 +1,30 @@
+.container
+{
+  padding-inline: 25px;
+}
+
+
+.bg-transparent-custom{
+  --background: transparent !important;
+  --background-activated: transparent !important;
+}
+
+.name {
+  p{
+    font-size: 18px;
+    margin-bottom: 2px;
+  }
+
+  span{
+    font-size: 14px;
+    color: rgb(140,140,140);
+  }
+}
+
+.dark-mode ion-item{
+  --background: var(--ion-color-step-500);
+
+  &::part(native){
+    padding-inline: 10px;
+  }
+}
